@@ -1,0 +1,154 @@
+﻿/*
+Default accent color
+
+*/
+a:hover {
+	color:#ffc000;
+}
+
+/* menu */
+.navbar nav ul.nav li.dropdown ul.dropdown-menu li a:active,.navbar nav ul.nav li.dropdown ul.dropdown-menu li a:focus {
+  background: #ffc000;
+}
+ul.topmenu li a:hover {
+	color:#ffc000;
+}
+
+/* slider */
+.bg-color {
+  background: #ffc000;
+}
+
+/* layerslider */
+.ls-highlighted-h.color {
+	background: #ffc000;	
+}
+
+/* form */
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type=url]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=color]:focus, .uneditable-input:focus {
+  border-color: #ffc000;
+}
+
+form#contactform .validation {
+	color:#ffc000;
+}
+#sendmessage {
+	border:1px solid #ffc000;
+
+}
+
+/* icon */
+[class^="icon-"].active {
+	color:#ffc000;
+}
+
+a i.icon-bglight:hover,
+a i.icon-bgdark:hover {
+  background: #ffc000;
+}
+i.icon-bglight.active {
+  background: #ffc000;
+}
+
+ul.styledlist li:before {
+	color:#ffc000;
+}
+
+/* logo icon */
+.logo h1 [class^="icon-"] {
+	color:#ffc000;
+}
+
+.footer_logo h3 [class^="icon-"] {
+	color:#ffc000;
+}
+
+/* CTA */
+.cta-text h2 span {
+	color:#ffc000;
+}
+
+/*-- button -- */
+.btn-color {
+  border:1px solid #ffc000;
+  background: #ffc000;
+}
+
+/* content */
+.box:hover .text h4 {
+	color:#ffc000;
+}
+#inner-headline ul.breadcrumb li a:hover {
+	color:#ffc000;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #ffc000;
+}
+
+/* blog */
+article .post-heading h3 a:hover {
+	text-decoration:none;
+	color:#ffc000;
+}
+
+ul.cat li a:hover, ul.folio-detail li a:hover{
+	color:#ffc000;
+}
+
+.meta-post a.author:hover,.meta-post a.date:hover {
+  background: #ffc000;
+}
+
+.about-author {
+	background: #ffc000;
+}
+
+.meta-bottom li a:hover {
+	color:#ffc000;
+}
+
+#pagination a:hover {
+  background: #ffc000;
+}
+
+/* component */
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background: #ffc000;
+  border:1px solid #ffc000;
+}
+.pagination ul > .active > a:hover,
+.pagination ul > .active > span:hover {
+  background: #ffc000;
+  border:1px solid #ffc000;
+}
+.pagination ul > li > a:hover{
+  color:#ffc000;
+}
+
+.pullquote-left {
+	border-left:5px solid #ffc000;
+}
+
+.pullquote-right {
+	border-right:5px solid #ffc000;
+}
+
+.pricing-box-wrap.special .pricing-heading {
+	background: #ffc000;
+}
+
+/* portfolio */
+ul.portfolio-categ.filter li.active a {
+  color:#ffc000;
+}
+
+/* footer */
+footer a:hover {
+	color:#ffc000;
+}
+footer ul.link-list li a:hover {
+	color:#ffc000;
+}
