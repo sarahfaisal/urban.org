@@ -183,7 +183,7 @@ img.img-polaroid {
   padding-top: 2px;
   padding-bottom: 10px;
 } */
-header {
+/* header {
   background: #fff;
   margin: 0;
   padding: 0 0 20px;
@@ -192,7 +192,7 @@ header {
   -webkit-box-shadow: 0 2px 4px -2px #ddd;
   -moz-box-shadow: 0 2px 4px -2px #ddd;
   box-shadow: 0 2px 4px -2px #ddd;
-}
+} */
 
 header .top {
   padding: 10px 0 10px;
@@ -2839,7 +2839,7 @@ ul.the-icons {
   /* border-radius: 10px; */
   border-radius: 20px; /* Rounded corners */
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   width: 92%; /* Reduce width for space on the sides */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -2891,5 +2891,27 @@ ul.the-icons {
   max-width: 800px;
   margin: 0 auto;
 } */
+
+
+.contact-us-button {
+  position: fixed;
+  right: 10px; /* Distance from the right edge */
+  top: 75%; /* Centered vertically */
+  transform: translateY(-50%);
+  background-color: #0c3457; /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears on top */
+  transition: background-color 0.3s;
+}
+
+.contact-us-button:hover {
+  background-color: #0c3457; /* Hover color */
+}
 
 
