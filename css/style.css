@@ -46,6 +46,7 @@
 ==================================== */
 
 body {
+  /* width: 100%; */
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -83,7 +84,7 @@ h2.errortitle {
 }
 
 .et-wrapper {
-  width: 200px;
+  width: 500px;
   height: 200px;
 }
 
@@ -177,7 +178,11 @@ img.img-polaroid {
 ==================================== */
 
 /* --- header -- */
-
+/* .container{
+  background-color: #f4f4f6;
+  padding-top: 2px;
+  padding-bottom: 10px;
+} */
 header {
   background: #fff;
   margin: 0;
@@ -1450,6 +1455,7 @@ article a.btn.btn-theme i {
 
 .post-slider {
   margin-bottom: 20px;
+
 }
 
 .post-quote blockquote {
@@ -2780,7 +2786,7 @@ ul.the-icons {
 }
 
 .card {
-  background-color: #f8f9fa;
+  background-color: #f4f4f6;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2790,6 +2796,7 @@ ul.the-icons {
 
 .card h2 {
   font-size: 1.5em;
+  font-weight: bold;
   color: #003366; /* Customize to match your theme */
 }
 
@@ -2800,6 +2807,7 @@ ul.the-icons {
 
 .card p {
   font-size: 1em;
+  font-weight: bold;
   color: #333;
 }
 
@@ -2813,5 +2821,74 @@ ul.the-icons {
 .card span4 p {
   white-space: pre-line;
 }
+
+.icon {
+  width: 60px;   /* Adjust as needed */
+  height: auto;  /* Keeps aspect ratio */
+  margin-bottom: 10px;
+}
+
+
+/* about section */
+.about-section {
+  background: #f4f4f6; /* Gradient background */
+  color: #003366; /* White text for contrast */
+  padding: 80px 20px;
+  text-align: center;
+  /* border-radius: 10px; */
+  border-radius: 20px; /* Rounded corners */
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 92%; /* Reduce width for space on the sides */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-heading {
+  font-size: 2.1rem;
+  color: #003366; /* Heading color */
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.about-heading-1 {
+  font-size: 1.7rem;
+  color: #003366; /* Heading color */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color:#333; /* Light gray for subtle contrast */
+  margin-bottom: 40px;
+  line-height: 1.8;
+  max-width: 800px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.read-more-button {
+  display: inline-block;
+  background-color: #ffce00; /* Bright yellow for attention */
+  color: #2c3e50; /* Dark text for button */
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+.read-more-button:hover {
+  background-color: #ffc107; /* Slightly darker yellow */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+/* .container {
+  max-width: 800px;
+  margin: 0 auto;
+} */
 
 
