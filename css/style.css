@@ -309,8 +309,9 @@ header ul.nav li ul.dropdown-menu li a i {
   color: #fff;
 }
 
+
 .navbar .nav a:hover {
-  background: none;
+  background: #0c3457;
 }
 
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover {
@@ -318,7 +319,7 @@ header ul.nav li ul.dropdown-menu li a i {
 }
 
 .navbar .nav>.active>a:active, .navbar .nav>.active>a:focus {
-  background: none;
+  background: #0c3457;
   outline: 0;
   font-weight: 600;
 }
