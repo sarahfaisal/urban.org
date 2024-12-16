@@ -775,7 +775,7 @@ select.selectmenu {
 
 #content img {
   max-width: 100%;
-  height: auto;
+  height: 164px;
 }
 
 /* --- Call to action --- */
@@ -3116,6 +3116,17 @@ ul.the-icons {
   font-weight: 600;
 }
 
+.about-heading-2 {
+  margin-top: 30px;
+  font-size: 2.3rem;
+  color: #003366; /* Heading color */
+  margin-bottom: 20px;
+  font-weight: 1000;
+  text-align: center;
+  font-weight: bold;
+}
+
+
 .about-text {
   font-size: 1.2rem;
   color:#333; /* Light gray for subtle contrast */
@@ -3167,8 +3178,8 @@ ul.the-icons {
   padding-left: 90px;
   padding-right: 90px;
   padding-bottom: 90px;
-  width: 300px;
-  height: 456px;
+  width: auto;
+  height: auto;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -3323,7 +3334,7 @@ ul.the-icons {
 
 .contact-us-button {
   position: fixed;
-  bottom: 95px;
+  bottom: 113px;
   right: 4px;
   text-decoration: none;
     /* border: 8px solid #0c3457; */
@@ -3342,8 +3353,8 @@ ul.the-icons {
 }
 
 .contact-us-button:hover {
-  transform: scale(1.1); /* Grows slightly on hover */
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); /* Adds a stronger shadow on hover */
+  transform: scale(1.1); 
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); 
 }
 
 .contact-us-button:active {
