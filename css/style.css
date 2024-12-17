@@ -3045,7 +3045,7 @@ ul.the-icons {
 }
 
 .card {
-  background-color: #f4f4f6;
+  background-color: #fbdb04;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -3067,7 +3067,7 @@ ul.the-icons {
 .card p {
   font-size: 1em;
   font-weight: bold;
-  color: #333;
+  color: #003366;
 }
 
 .card h2,
@@ -3085,13 +3085,15 @@ ul.the-icons {
   width: 60px;   /* Adjust as needed */
   height: auto;  /* Keeps aspect ratio */
   margin-bottom: 10px;
+  background: none;
+  color: white;
 }
 
 
 /* about section */
 .about-section {
-  background: #f4f4f6; /* Gradient background */
-  color: #003366; /* White text for contrast */
+  background: #fbdb04; /* Gradient background  f4f4f6*/
+  color: #f4f4f6; /* White text for contrast */
   padding: 80px 20px;
   text-align: center;
   /* border-radius: 10px; */
@@ -3129,7 +3131,7 @@ ul.the-icons {
 
 .about-text {
   font-size: 1.2rem;
-  color:#333; /* Light gray for subtle contrast */
+  color:#003366; /* Light gray for subtle contrast */
   margin-bottom: 40px;
   line-height: 1.8;
   max-width: 800px;
@@ -3140,8 +3142,8 @@ ul.the-icons {
 
 .read-more-button {
   display: inline-block;
-  background-color: #ffce00; /* Bright yellow for attention */
-  color: #2c3e50; /* Dark text for button */
+  background-color: #003366; /* Bright yellow for attention */
+  color: #fbdb04; /* Dark text for button 003366 */
   text-decoration: none;
   padding: 12px 30px;
   font-size: 1rem;
@@ -3152,7 +3154,7 @@ ul.the-icons {
 }
 
 .read-more-button:hover {
-  background-color: #ffc107; /* Slightly darker yellow */
+  background-color: #022447; /* Slightly darker yellow */
   transform: translateY(-2px); /* Lift effect */
 }
 
@@ -3209,7 +3211,7 @@ ul.the-icons {
   height: 140px;
   border-radius: 50%;
   margin-bottom: 15px;
-  border: 3px solid #ffc000;
+  border: 3px solid #fbdb04;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -3217,14 +3219,14 @@ ul.the-icons {
   font-size: 20px;
   font-weight: bold;
   margin: 5px 0;
-  color: #ffc000;
+  color: #fbdb04;
 }
 
 .testimonial-box .profile h4 {
   font-size: 17px;
   /* font-weight: bold; */
   margin: 5px 0;
-  color: #ffc000;
+  color: #fbdb04;
 }
 
 /* .testimonial-box .social-links a {
