@@ -775,7 +775,7 @@ select.selectmenu {
 
 #content img {
   max-width: 100%;
-  height: 164px;
+  height: auto;
 }
 
 /* --- Call to action --- */
