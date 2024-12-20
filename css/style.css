@@ -297,9 +297,9 @@ header .logo h1 a:hover {
   align-items: center;
 }
 
-a {
+/* a {
   text-decoration: none !important;
-}
+} */
 
 .nav-link {
   color: #333;
@@ -3206,7 +3206,13 @@ ul.the-icons {
 .testimonial-box .profile {
   position: relative;
 }
-
+#slide0{
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+  border: 0;
+  margin-bottom: 40px;
+}
 .testimonial-box .profile img {
   width: 140px;
   height: 140px;
